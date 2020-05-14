@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class RemoteControl {
     private Command[] onCommands; 
     private Command[] offCommands;
@@ -37,8 +35,6 @@ public class RemoteControl {
             if(this.onCommands[i] != null) {
                 sb.append("slot["+i+"] on = "+this.onCommands[i]+
                         " off = "+this.offCommands[i]+"\n");
-               
-               
             }
          }
         return sb.toString();
