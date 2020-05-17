@@ -33,7 +33,10 @@ public class RemoteLoader {
         remote.offPushed(2);
         remote.onPushed(3);
         remote.offPushed(3);
-    
+        
+        Facade f = new Facade(bedroom,livingRoom,diningRoom,kitchen);
+        f.allOn();
+        f.allOff();
     }
 
 }
